@@ -11,6 +11,7 @@ GPT: 1. Tank
 3. Hercules
 4. Bella
 5. Duke
+
 PROMPT: the dog is a girl
 GPT: 1. Rosie
 2. Daisy

@@ -11,6 +11,7 @@ GPT: 1. Tank
 3. Bulldozer
 4. Winston
 5. Rosie
+
 PROMPT: the dog is a girl
 GPT: That's correct, "the dog is a girl" means that the dog is a female.
 ```
