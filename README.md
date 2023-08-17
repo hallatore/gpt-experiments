@@ -32,13 +32,17 @@ Run `npm start` and select which experiment you want to run.
 
 Sends `Hello, I am a human.` to gpt and prints the response to the console.
 
-#### Chat
+#### Chat without history
 
 Takes user input from terminal and sends it to gpt. Prints the respons in the terminal.
+
+Note that each request/response is sent in isolation. So you cannot ask follow up questions.
 
 #### Chat with history
 
 Takes user input from terminal and sends it to gpt. Prints the respons in the terminal.
+
+Note that the history is kept. So GPT processes all messages each request.
 
 ### Intermidiate
 

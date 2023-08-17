@@ -1,6 +1,6 @@
 import readlineSync from 'readline-sync';
 import helloGpt from './experiments/basic/hello-gpt';
-import chat from './experiments/basic/chat';
+import chatWithoutHistory from './experiments/basic/chat-without-history';
 import chatWithHistory from './experiments/basic/chat-with-history';
 import translate from './experiments/basic/translate';
 
@@ -11,9 +11,9 @@ const experiments = [
         fn: helloGpt,
     },
     {
-        name: 'basic/chat',
-        readme: 'experiments/basic/chat/README.md',
-        fn: chat,
+        name: 'basic/chat-without-history',
+        readme: 'experiments/basic/chat-without-history/README.md',
+        fn: chatWithoutHistory,
     },
     {
         name: 'basic/chat-with-history',

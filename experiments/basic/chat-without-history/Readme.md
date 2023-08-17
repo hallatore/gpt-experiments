@@ -1,4 +1,4 @@
-# Chat
+# Chat without history
 
 Takes user input from terminal and sends it to gpt. Prints the respons in the terminal.
 
@@ -16,4 +16,4 @@ PROMPT: the dog is a girl
 GPT: That's correct, "the dog is a girl" means that the dog is a female.
 ```
 
-Note that the history is not sent. So each response/reply is in isolation.
+Note that each request/response is sent in isolation. So you cannot ask follow up questions.
