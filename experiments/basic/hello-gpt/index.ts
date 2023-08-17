@@ -1,6 +1,10 @@
 import { ChatCompletionRequestMessage } from 'openai';
 import { chat_completion } from '../../../core/gpt-api';
 
+export const description = `
+Sends \`Hello, I am a human.\` to gpt and prints the response to the console.
+`;
+
 export default async () => {
     const messages: ChatCompletionRequestMessage[] = [
         {

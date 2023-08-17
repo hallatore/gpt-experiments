@@ -1,28 +1,40 @@
 import readlineSync from 'readline-sync';
-import helloGpt from './experiments/basic/hello-gpt';
-import chatWithoutHistory from './experiments/basic/chat-without-history';
-import chatWithHistory from './experiments/basic/chat-with-history';
-import translate from './experiments/basic/translate';
+import helloGpt, {
+    description as helloGptDescription,
+} from './experiments/basic/hello-gpt';
+import chatWithoutHistory, {
+    description as chatWithoutHistoryDescription,
+} from './experiments/basic/chat-without-history';
+import chatWithHistory, {
+    description as chatWithHistoryDescription,
+} from './experiments/basic/chat-with-history';
+import translate, {
+    description as translateDescription,
+} from './experiments/basic/translate';
 
 const experiments = [
     {
         name: 'basic/hello-gpt',
         readme: 'experiments/basic/hello-gpt/README.md',
+        description: helloGptDescription,
         fn: helloGpt,
     },
     {
         name: 'basic/chat-without-history',
         readme: 'experiments/basic/chat-without-history/README.md',
+        description: chatWithoutHistoryDescription,
         fn: chatWithoutHistory,
     },
     {
         name: 'basic/chat-with-history',
         readme: 'experiments/basic/chat-with-history/README.md',
+        description: chatWithHistoryDescription,
         fn: chatWithHistory,
     },
     {
         name: 'basic/translate',
         readme: 'experiments/basic/translate/README.md',
+        description: translateDescription,
         fn: translate,
     },
 ];
@@ -50,7 +62,11 @@ async function main() {
 
         console.log(
             '\x1b[33m%s\x1b[0m',
-            `\r\n---\r\nRunning ${experiments[experimentIndex].name}\r\n---\r\n`
+            `\r\n---\r\nRunning ${
+                experiments[experimentIndex].name
+            }\r\n\r\n${experiments[
+                experimentIndex
+            ].description.trim()}\r\n---\r\n`
         );
 
         const result = experiments[experimentIndex].fn();
@@ -60,10 +76,10 @@ async function main() {
         }
 
         readlineSync.keyIn(
-            '\r\n\x1b[33mDone running experiment. Press any key to continue. \x1b[0m'
+            '\r\n\x1b[33mDone running experiment. Press SPACEBAR to continue. \x1b[0m'
         );
 
-        console.log('\x1b[33m%s\x1b[0m', '\r\n---');
+        console.log('\x1b[33m%s\x1b[0m', 'Done running experiment.\r\n---');
     }
 }
 
