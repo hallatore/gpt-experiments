@@ -18,7 +18,9 @@ OPENAI_API_KEY=<API-KEY>
 OPENAI_MODEL=gpt-3.5-turbo
 ```
 
-### How to run
+You can get your api-key from https://platform.openai.com/account/api-keys
+
+### Running the experiments
 
 Run `npm start` and select which experiment you want to run.
 

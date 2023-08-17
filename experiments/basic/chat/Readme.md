@@ -2,10 +2,6 @@
 
 Takes user input from terminal and sends it to gpt. Prints the respons in the terminal.
 
-## Note 
-
-Chat history is not kept. So you cannot ask it follow up questions.
-
 ## Example
 
 ```
