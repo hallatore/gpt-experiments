@@ -27,21 +27,21 @@ Run `npm start` and select which experiment you want to run.
 
 ### Basic
 
-#### Hello gpt
+#### [Hello gpt](./experiments/basic/hello-gpt/Readme.md)
 
 Sends `Hello, I am a human.` to gpt and prints the response to the console.
 
-#### Chat without history
+#### [Chat without history](./experiments/basic/chat-without-history/Readme.md)
 
 Takes user input from terminal and sends it to gpt. Prints the respons in the terminal.
 
-Note that each request/response is sent in isolation. So you cannot ask follow up questions.
-
-#### Chat with history
+#### [Chat with history](./experiments/basic/chat-with-history/Readme.md)
 
 Takes user input from terminal and sends it to gpt. Prints the respons in the terminal.
 
-Note that the history is kept. So GPT processes all messages each request.
+#### [Translate](./experiments/basic/translate/Readme.md)
+
+Takes user input from terminal and translates it to Swedish, French, and German.
 
 ### Intermidiate
 
@@ -50,3 +50,12 @@ Note that the history is kept. So GPT processes all messages each request.
 ### Advanced
 
 ...
+
+## How to contribute
+
+1. Create a experiments folder with your code. See experiments/basic/hello-gpt for a starting point.
+2. Add it to the list in [index.ts](./index.ts)
+3. Add it to the list in this readme
+4. Create a pull request on GitHub with your changes.
+
+PS: https://platform.openai.com/playground is great for prototyping GPT logic!
