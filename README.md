@@ -7,7 +7,6 @@ Contains different GPT sample projects/experiments written in js/typescript.
 ### Installation
 
 ```
-npm install -g ts-node
 npm install
 ```
 
