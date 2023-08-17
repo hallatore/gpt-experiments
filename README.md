@@ -1,6 +1,6 @@
 # gpt-experiments
 
-Contains different GPT sample projects/experiments written in js/typescript.
+GPT-Experiments is a set of sample experiments to showcase different ways you can use GPT. The code is written in js/typescript.
 
 ## Setup
 
