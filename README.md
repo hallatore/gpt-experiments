@@ -41,6 +41,14 @@ Takes user input from terminal and sends it to gpt. Prints the respons in the te
 
 Takes user input from terminal and translates it to Swedish, French, and German.
 
+### [Vector search](./experiments/basic/vector-search/Readme.md)
+
+Takes user input from terminal and does a similarity search on a faq dataset and return top 3 results.
+
+### [Vector search with GPT](./experiments/basic/vector-search-with-gpt/Readme.md)
+
+Takes user input from terminal and does a similarity search on a faq dataset. Then it uses GPT to do a final filtering of the results.
+
 ## Intermidiate
 
 ...

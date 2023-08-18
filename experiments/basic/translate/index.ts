@@ -36,7 +36,7 @@ export default async () => {
         const input = readlineSync.question('PROMPT: ');
 
         if (input === '') {
-            break;
+            return true;
         }
 
         const swedishResult = await tranlate(input, 'Swedish');

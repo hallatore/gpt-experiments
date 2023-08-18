@@ -16,7 +16,7 @@ export default async () => {
         const input = readlineSync.question('PROMPT: ');
 
         if (input === '') {
-            break;
+            return true;
         }
 
         messages.push({

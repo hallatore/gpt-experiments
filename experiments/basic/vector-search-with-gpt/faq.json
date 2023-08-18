@@ -1,0 +1,206 @@
+[
+    {
+        "question": "What is your company's mission?",
+        "answer": "Our mission is to empower individuals through innovative solutions."
+    },
+    {
+        "question": "How long have you been in business?",
+        "answer": "We have been in business for over 20 years."
+    },
+    {
+        "question": "Do you offer international shipping?",
+        "answer": "Yes, we offer international shipping to over 100 countries."
+    },
+    {
+        "question": "How can I track my order?",
+        "answer": "You can track your order using the tracking number provided in your confirmation email."
+    },
+    {
+        "question": "What is your return policy?",
+        "answer": "We offer a 30-day return policy on most items."
+    },
+    {
+        "question": "Do you have a physical store?",
+        "answer": "No, we are an online-only store."
+    },
+    {
+        "question": "How can I contact customer support?",
+        "answer": "You can reach us at support@example.com or call us at (123) 456-7890."
+    },
+    {
+        "question": "Do you offer discounts for bulk orders?",
+        "answer": "Yes, please contact our sales team for bulk order inquiries."
+    },
+    {
+        "question": "What payment methods do you accept?",
+        "answer": "We accept all major credit cards, PayPal, and bank transfers."
+    },
+    {
+        "question": "Is my personal information secure?",
+        "answer": "Yes, we use industry-standard encryption to protect your data."
+    },
+    {
+        "question": "How do I reset my password?",
+        "answer": "Click on the 'Forgot Password' link on the login page and follow the instructions."
+    },
+    {
+        "question": "Can I change my order after it's been placed?",
+        "answer": "Orders can be changed within 24 hours of placement. Contact our support team for assistance."
+    },
+    {
+        "question": "What are the shipping costs?",
+        "answer": "Shipping costs vary based on location and weight. Please refer to our shipping page for details."
+    },
+    {
+        "question": "Do you offer gift wrapping?",
+        "answer": "Yes, gift wrapping is available for an additional fee."
+    },
+    {
+        "question": "Can I purchase a gift card?",
+        "answer": "Yes, we offer gift cards in various denominations."
+    },
+    {
+        "question": "How do I apply for a job at your company?",
+        "answer": "Visit our 'Careers' page for current openings and application details."
+    },
+    {
+        "question": "Do you have a newsletter?",
+        "answer": "Yes, you can sign up for our newsletter on our homepage."
+    },
+    {
+        "question": "How often do you restock items?",
+        "answer": "We restock items weekly, but some items may take longer."
+    },
+    {
+        "question": "Do you have a loyalty program?",
+        "answer": "Yes, you can join our rewards program for exclusive offers and discounts."
+    },
+    {
+        "question": "Where are your products made?",
+        "answer": "Our products are made in various locations worldwide, with a focus on ethical sourcing."
+    },
+    {
+        "question": "Are there any upcoming sales or promotions?",
+        "answer": "Stay tuned to our newsletter and social media channels for announcements on sales and promotions."
+    },
+    {
+        "question": "How do I care for my purchased item?",
+        "answer": "Care instructions are provided with each product and on our website."
+    },
+    {
+        "question": "Can I pre-order items?",
+        "answer": "Yes, select items are available for pre-order. Check the product details for availability."
+    },
+    {
+        "question": "Do you offer a warranty on your products?",
+        "answer": "Yes, we offer a 1-year warranty on select products."
+    },
+    {
+        "question": "How can I leave feedback or a review?",
+        "answer": "You can leave feedback on the product page or contact our customer support."
+    },
+    {
+        "question": "What are the benefits of creating an account?",
+        "answer": "Creating an account allows for faster checkouts, order tracking, and access to exclusive offers."
+    },
+    {
+        "question": "Do you collaborate with influencers or bloggers?",
+        "answer": "Yes, we have a collaboration program. Contact our marketing team for details."
+    },
+    {
+        "question": "Can I reserve an item to pick up in-store?",
+        "answer": "We are online-only, so in-store pickups are not available."
+    },
+    {
+        "question": "Do you offer price matching?",
+        "answer": "We strive to offer competitive prices but do not currently offer price matching."
+    },
+    {
+        "question": "What is your policy on sustainability?",
+        "answer": "We are committed to sustainable practices. Read more on our 'Sustainability' page."
+    },
+    {
+        "question": "Can I customize a product?",
+        "answer": "Customization options are available for select products. Check the product details for availability."
+    },
+    {
+        "question": "How long does shipping take?",
+        "answer": "Standard shipping takes 3-5 business days. Expedited options are also available."
+    },
+    {
+        "question": "What is your privacy policy?",
+        "answer": "Your privacy is important to us. Read our full privacy policy on our website."
+    },
+    {
+        "question": "Do you offer wholesale pricing?",
+        "answer": "Yes, contact our sales team for wholesale inquiries."
+    },
+    {
+        "question": "How do I unsubscribe from emails?",
+        "answer": "Click the 'unsubscribe' link at the bottom of any of our emails."
+    },
+    {
+        "question": "Do you have an affiliate program?",
+        "answer": "Yes, visit our 'Affiliates' page for more information."
+    },
+    {
+        "question": "What sizes do you offer?",
+        "answer": "We offer a range of sizes. Refer to our size guide for details."
+    },
+    {
+        "question": "Are there any student discounts?",
+        "answer": "Yes, students can avail a 10% discount with a valid student ID."
+    },
+    {
+        "question": "What is the status of my refund?",
+        "answer": "Refunds typically take 5-7 business days. Contact our support team if you have any concerns."
+    },
+    {
+        "question": "How can I cancel my order?",
+        "answer": "Orders can be canceled within 12 hours of placement. Contact our support team immediately."
+    },
+    {
+        "question": "Is there a minimum order value?",
+        "answer": "No, there is no minimum order value."
+    },
+    {
+        "question": "What is the difference between 'In Stock' and 'Available'?",
+        "answer": " 'In Stock' means the item is ready to ship, while 'Available' might require additional processing time."
+    },
+    {
+        "question": "How do I use a promo code?",
+        "answer": "Enter the promo code at checkout in the designated field and click 'Apply'."
+    },
+    {
+        "question": "Can I exchange an item?",
+        "answer": "Yes, exchanges are allowed within 30 days of purchase."
+    },
+    {
+        "question": "How do I know if a product is available?",
+        "answer": "Product availability is displayed on each product page."
+    },
+    {
+        "question": "What happens if an item is out of stock after I order?",
+        "answer": "You will be notified and given the option to wait, select an alternative, or receive a refund."
+    },
+    {
+        "question": "Do you have a mobile app?",
+        "answer": "Yes, our mobile app is available on both iOS and Android platforms."
+    },
+    {
+        "question": "Do you offer expedited shipping?",
+        "answer": "Yes, we offer several expedited shipping options at checkout."
+    },
+    {
+        "question": "How do I know my size?",
+        "answer": "Refer to our comprehensive size guide available on the website."
+    },
+    {
+        "question": "Do you have gift receipts?",
+        "answer": "Yes, you can request a gift receipt during checkout."
+    },
+    {
+        "question": "Do you match charitable donations?",
+        "answer": "Yes, we have a donation matching program up to a certain amount annually."
+    }
+]

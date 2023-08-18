@@ -11,6 +11,12 @@ import chatWithHistory, {
 import translate, {
     description as translateDescription,
 } from './experiments/basic/translate';
+import vectorSearch, {
+    description as vectorSearchDescription,
+} from './experiments/basic/vector-search';
+import vectorSearchWithGpt, {
+    description as vectorSearchWithGptDescription,
+} from './experiments/basic/vector-search-with-gpt';
 
 const experiments = [
     {
@@ -36,6 +42,18 @@ const experiments = [
         readme: 'experiments/basic/translate/README.md',
         description: translateDescription,
         fn: translate,
+    },
+    {
+        name: 'basic/vector-search',
+        readme: 'experiments/basic/vector-search/README.md',
+        description: vectorSearchDescription,
+        fn: vectorSearch,
+    },
+    {
+        name: 'basic/vector-search-with-gpt',
+        readme: 'experiments/basic/vector-search-with-gpt/README.md',
+        description: vectorSearchWithGptDescription,
+        fn: vectorSearchWithGpt,
     },
 ];
 
@@ -69,15 +87,13 @@ async function main() {
             ].description.trim()}\r\n---\r\n`
         );
 
-        const result = experiments[experimentIndex].fn();
+        const result = await experiments[experimentIndex].fn();
 
-        if (result instanceof Promise) {
-            await result;
+        if (result === undefined) {
+            readlineSync.keyIn(
+                '\r\n\x1b[33mDone running experiment. Press SPACEBAR to continue. \x1b[0m'
+            );
         }
-
-        readlineSync.keyIn(
-            '\r\n\x1b[33mDone running experiment. Press SPACEBAR to continue. \x1b[0m'
-        );
 
         console.log('\x1b[33m%s\x1b[0m', 'Done running experiment.\r\n---');
     }
