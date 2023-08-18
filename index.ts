@@ -17,6 +17,9 @@ import vectorSearch, {
 import vectorSearchWithGpt, {
     description as vectorSearchWithGptDescription,
 } from './experiments/basic/vector-search-with-gpt';
+import functions, {
+    description as functionsDescription,
+} from './experiments/basic/functions';
 
 const experiments = [
     {
@@ -54,6 +57,12 @@ const experiments = [
         readme: 'experiments/basic/vector-search-with-gpt/README.md',
         description: vectorSearchWithGptDescription,
         fn: vectorSearchWithGpt,
+    },
+    {
+        name: 'basic/functions',
+        readme: 'experiments/basic/functions/README.md',
+        description: functionsDescription,
+        fn: functions,
     },
 ];
 
